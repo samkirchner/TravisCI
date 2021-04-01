@@ -79,6 +79,7 @@ namespace TravisCILab
             Assert.Throws<ArgumentNullException>(() => Program.Multiply(null, null));
         }
 
+        [Test]
         public void Divide_Valid_Kirchner()
         {
             Assert.AreEqual(1, Program.Divide("2", "2"));
